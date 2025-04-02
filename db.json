@@ -1,19 +1,19 @@
 {
-  "usuarios": [
+  "postagens": [
     {
-      "id": 1716161234279,
-      "usuario": "admin",
-      "senha": "123456"
+      "id": 1,
+      "titulo": "Título da Postagem 1",
+      "conteudo": "Conteúdo da postagem 1. Texto explicativo sobre o tópico.",
+      "autor": "Autor 1",
+      "imagemLink": "https://example.com/imagem1.jpg",
+      "dataCriacao": "2025-04-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "titulo": "Título da Postagem 2",
+      "conteudo": "Conteúdo da postagem 2. Texto explicativo sobre o segundo tópico.",
+      "autor": "Autor 2",
+      "imagemLink": "https://example.com/imagem2.jpg",
+      "dataCriacao": "2025-04-01T11:00:00Z"
     }
-   
-  ],
-    "tasks": [
-        {
-            "id": 1,
-            "title": "",
-            "description": "",
-            "dueDate": "",
-            "status": ""
-        }
-    ]
 }
