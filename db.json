@@ -3,14 +3,14 @@
     "Pessoas": [
       {
         "ID": 1,
-        "Usuario": "jota",
+        "Email": "jotagomesmachado@gmail.com",
         "Senha": "1234"
       }
     ],
     "Assinantes": [
       {
         "ID": 1,
-        "Usuario": "jota",
+        "Email": "jotagomesmachado@gmail.com",
         "Plano": "premium",
         "Senha": "1234"
       }
