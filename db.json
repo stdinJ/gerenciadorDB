@@ -1,20 +1,50 @@
 {
-  "postagens": [
+  "site": {
+    "nome": "I&N KIDS",
+    "favicon": "../../assets/images/logo.png"
+  },
+  "paginas": [
     {
-      "id": 1,
-      "titulo": "Título da Postagem 1",
-      "conteudo": "Conteúdo da postagem 1. Texto explicativo sobre o tópico.",
-      "autor": "Autor 1",
-      "imagemLink": "https://example.com/imagem1.jpg",
-      "dataCriacao": "2025-04-01T10:00:00Z"
+      "id": "home",
+      "titulo": "Home",
+      "url": "../../index.html",
+      "icone": "",
+      "menu": true
     },
     {
-      "id": 2,
-      "titulo": "Título da Postagem 2",
-      "conteudo": "Conteúdo da postagem 2. Texto explicativo sobre o segundo tópico.",
-      "autor": "Autor 2",
-      "imagemLink": "https://example.com/imagem2.jpg",
-      "dataCriacao": "2025-04-01T11:00:00Z"
+      "id": "sobre",
+      "titulo": "Sobre",
+      "url": "../sobre/sobre-nos.html",
+      "icone": "",
+      "menu": true
+    },
+    {
+      "id": "planos",
+      "titulo": "Planos",
+      "url": "../contato/contato.html",
+      "icone": "",
+      "menu": true
+    },
+    {
+      "id": "cadastro",
+      "titulo": "Cadastro",
+      "url": "cadastro.html",
+      "icone": "fa-solid fa-user",
+      "menu": true
+    },
+    {
+      "id": "login",
+      "titulo": "Login",
+      "url": "login.html",
+      "icone": "fa-solid fa-right-to-bracket",
+      "menu": true
+    },
+    {
+      "id": "redefinir_senha",
+      "titulo": "Redefinir Senha",
+      "url": "redefinir-senha.html",
+      "icone": "",
+      "menu": false
     }
   ]
 }
