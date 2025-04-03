@@ -1,50 +1,19 @@
 {
-  "site": {
-    "nome": "I&N KIDS",
-    "favicon": "../../assets/images/logo.png"
-  },
-  "paginas": [
-    {
-      "id": "home",
-      "titulo": "Home",
-      "url": "../../index.html",
-      "icone": "",
-      "menu": true
-    },
-    {
-      "id": "sobre",
-      "titulo": "Sobre",
-      "url": "../sobre/sobre-nos.html",
-      "icone": "",
-      "menu": true
-    },
-    {
-      "id": "planos",
-      "titulo": "Planos",
-      "url": "../contato/contato.html",
-      "icone": "",
-      "menu": true
-    },
-    {
-      "id": "cadastro",
-      "titulo": "Cadastro",
-      "url": "cadastro.html",
-      "icone": "fa-solid fa-user",
-      "menu": true
-    },
-    {
-      "id": "login",
-      "titulo": "Login",
-      "url": "login.html",
-      "icone": "fa-solid fa-right-to-bracket",
-      "menu": true
-    },
-    {
-      "id": "redefinir_senha",
-      "titulo": "Redefinir Senha",
-      "url": "redefinir-senha.html",
-      "icone": "",
-      "menu": false
-    }
-  ]
+  "usuarios": {
+    "Pessoas": [
+      {
+        "ID": 1,
+        "Usuario": "jota",
+        "Senha": "1234"
+      }
+    ],
+    "Assinantes": [
+      {
+        "ID": 1,
+        "Usuario": "jota",
+        "Plano": "premium",
+        "Senha": "1234"
+      }
+    ]
+  }
 }
